@@ -1,16 +1,46 @@
-# movie_db_flutter
+## Movie DB 🍝
 
-A new Flutter project.
+MovieDB POC App Developed with Flutter.
 
-## Getting Started
+Endpoind:[MovieDB](https://www.themoviedb.org/)
 
-This project is a starting point for a Flutter application.
+## Tech stack
 
-A few resources to get you started if this is your first Flutter project:
+### Network
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Dio](https://pub.dev/packages/dio)
+- [Retrofit](https://pub.dev/packages/retrofit)
+- [Connectivity](https://pub.dev/packages/connectivity)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### State Manangement
+
+- [stacked](https://pub.dev/packages/stacked)
+
+### Dependency Injection
+
+- [get_it](https://pub.dev/packages/get_it)
+
+### Routing
+
+- [auto_route](https://pub.dev/packages/auto_route)
+
+### Animations
+
+- [animations](https://pub.dev/packages/animations)
+
+## Pros ✅
+
+- Modern architecture based on MVVM
+- Readable and scalable codebase
+- Native animations and transitions
+- Responsive layout design, vertical and horizontal usage
+- Good state handling
+- Dark theme
+- Error management
+- Localization Support
+
+## Improvement points 📌
+
+- Adding multiple Flavors
+- Web & Desktop Support
+- Download & Cache Support
