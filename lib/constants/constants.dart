@@ -9,7 +9,8 @@ class Constants {
   static const titleColor = const Color(0xffD8D8D8);
   static const purple = const Color(0xff5D1CD4);
   static const disable = const Color(0xff898989);
-  static const grey = const Color(0xffB5B5B5);
+  static const grey = const Color(0xffA5A5A5);
+  static const green = const Color(0xff4DF687);
   static const black = const Color(0xff2C1F44);
   static const blue = const Color(0xff27CDB2);
   static const background = const Color(0xffF7F7F7);

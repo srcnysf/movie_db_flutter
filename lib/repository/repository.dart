@@ -14,15 +14,17 @@ class Repository {
 
   Repository(this._apiService, this.errorFactory);
 
-  Future<TvShows> getPopularTvShows() async {
-    return await _apiService.getPopularTvShows(ApiConstants.API_KEY).catchError(
-        (onError) => throw errorFactory.createApiError(
+  Future<TvShows> getPopularTvShows({required int page}) async {
+    return await _apiService
+        .getPopularTvShows(ApiConstants.API_KEY, page)
+        .catchError((onError) => throw errorFactory.createApiError(
             1, NetworkErrorUtil.handleError(onError)));
   }
 
-  Future<Movies> getPopularMovies() async {
-    return await _apiService.getPopularMovies(ApiConstants.API_KEY).catchError(
-        (onError) => throw errorFactory.createApiError(
+  Future<Movies> getPopularMovies({required int page}) async {
+    return await _apiService
+        .getPopularMovies(ApiConstants.API_KEY, page)
+        .catchError((onError) => throw errorFactory.createApiError(
             1, NetworkErrorUtil.handleError(onError)));
   }
 

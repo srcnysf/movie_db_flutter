@@ -82,8 +82,8 @@ class DeviceUtil {
     return buildNumber!;
   }
 
-  String getDeviceModel() {
-    return Platform.isAndroid ? _androidInfo!.model : _iosInfo!.model;
+  String? getDeviceModel() {
+    return Platform.isAndroid ? _androidInfo?.model : _iosInfo?.model;
   }
 
   String getDeviceType() {
@@ -96,8 +96,12 @@ class DeviceUtil {
 
   String isDeviceSimulator() {
     return Platform.isAndroid
-        ? "${!_androidInfo!.isPhysicalDevice}"
-        : "${!_iosInfo!.isPhysicalDevice}";
+        ? _androidInfo?.isPhysicalDevice ?? false
+            ? "false "
+            : "true}"
+        : _iosInfo?.isPhysicalDevice ?? false
+            ? "false "
+            : "true}";
   }
 
   String isDeviceRooted() {
@@ -111,9 +115,9 @@ class DeviceUtil {
     return DateTime.now().millisecondsSinceEpoch.toString();
   }
 
-  String getDeviceId() {
+  String? getDeviceId() {
     return Platform.isAndroid
-        ? _androidInfo!.androidId
-        : _iosInfo!.identifierForVendor;
+        ? _androidInfo?.androidId
+        : _iosInfo?.identifierForVendor;
   }
 }

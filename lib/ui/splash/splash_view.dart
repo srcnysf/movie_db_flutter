@@ -17,7 +17,7 @@ class SplashView extends StatelessWidget {
               onLoading: model.isBusy,
               error: Text(model.modelError.toString()),
               body: Scaffold(
-                  backgroundColor: Constants.purple,
+                  backgroundColor: Constants.black,
                   body: Stack(
                     children: [
                       Column(

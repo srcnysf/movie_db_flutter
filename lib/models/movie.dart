@@ -6,8 +6,10 @@ part 'movie.g.dart';
 class Movie {
   final int id;
   final String? poster_path;
+  final String? title;
   Movie({
     required this.id,
+    required this.title,
     required this.poster_path,
   });
 

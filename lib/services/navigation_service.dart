@@ -8,6 +8,6 @@ class NavigationService {
   }
 
   Future<dynamic> navigateHome(BuildContext context) {
-    return AutoRouter.of(context).navigate(HomeRoute());
+    return AutoRouter.of(context).replace(HomeRoute());
   }
 }

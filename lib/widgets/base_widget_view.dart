@@ -23,13 +23,16 @@ class BaseView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: Constants.background,
+      backgroundColor: Constants.black,
       appBar: appBar,
       body: Container(
         child: onError
             ? Center(child: error)
             : onLoading
-                ? Center(child: CircularProgressIndicator())
+                ? Center(
+                    child: CircularProgressIndicator(
+                    valueColor: new AlwaysStoppedAnimation<Color>(Colors.white),
+                  ))
                 : isEmpty != null && isEmpty!
                     ? Center(
                         child: emptyState,

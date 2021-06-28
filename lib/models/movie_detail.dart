@@ -5,7 +5,7 @@ part 'movie_detail.g.dart';
 @JsonSerializable()
 class MovieDetail {
   final int id;
-  final int? vote_average;
+  final double? vote_average;
   final String? overview;
   final String? backdrop_path;
   final String? title;

@@ -9,6 +9,7 @@ part of 'movie.dart';
 Movie _$MovieFromJson(Map<String, dynamic> json) {
   return Movie(
     id: json['id'] as int,
+    title: json['title'] as String?,
     poster_path: json['poster_path'] as String?,
   );
 }
@@ -16,4 +17,5 @@ Movie _$MovieFromJson(Map<String, dynamic> json) {
 Map<String, dynamic> _$MovieToJson(Movie instance) => <String, dynamic>{
       'id': instance.id,
       'poster_path': instance.poster_path,
+      'title': instance.title,
     };

@@ -14,9 +14,12 @@ class _ApiService implements ApiService {
   String? baseUrl;
 
   @override
-  Future<TvShows> getPopularTvShows(apiKey) async {
+  Future<TvShows> getPopularTvShows(apiKey, page) async {
     const _extra = <String, dynamic>{};
-    final queryParameters = <String, dynamic>{r'api_key': apiKey};
+    final queryParameters = <String, dynamic>{
+      r'api_key': apiKey,
+      r'page': page
+    };
     queryParameters.removeWhere((k, v) => v == null);
     final _data = <String, dynamic>{};
     final _result = await _dio.fetch<Map<String, dynamic>>(
@@ -30,9 +33,12 @@ class _ApiService implements ApiService {
   }
 
   @override
-  Future<Movies> getPopularMovies(apiKey) async {
+  Future<Movies> getPopularMovies(apiKey, page) async {
     const _extra = <String, dynamic>{};
-    final queryParameters = <String, dynamic>{r'api_key': apiKey};
+    final queryParameters = <String, dynamic>{
+      r'api_key': apiKey,
+      r'page': page
+    };
     queryParameters.removeWhere((k, v) => v == null);
     final _data = <String, dynamic>{};
     final _result = await _dio.fetch<Map<String, dynamic>>(

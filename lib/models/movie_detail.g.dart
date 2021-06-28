@@ -9,7 +9,7 @@ part of 'movie_detail.dart';
 MovieDetail _$MovieDetailFromJson(Map<String, dynamic> json) {
   return MovieDetail(
     id: json['id'] as int,
-    vote_average: json['vote_average'] as int?,
+    vote_average: (json['vote_average'] as num?)?.toDouble(),
     overview: json['overview'] as String?,
     backdrop_path: json['backdrop_path'] as String?,
     title: json['title'] as String?,

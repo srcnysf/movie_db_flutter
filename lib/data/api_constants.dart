@@ -2,7 +2,7 @@ class ApiConstants {
   // base url
   static const BASE_URL = "https://api.themoviedb.org/3";
 
-  static const API_KEY = "d005fa44-e697-49d0-824f-ac99ea54281f";
+  static const API_KEY = "0921a11ff74eb51180882534314e79af";
   // receiveTimeout
   static const RECIEVE_TIMEOUT = 5000;
   // connectTimeout

@@ -10,7 +10,7 @@ TvDetail _$TvDetailFromJson(Map<String, dynamic> json) {
   return TvDetail(
     homepage: json['homepage'] as String?,
     id: json['id'] as int,
-    vote_average: json['vote_average'] as int?,
+    vote_average: (json['vote_average'] as num?)?.toDouble(),
     overview: json['overview'] as String?,
     backdrop_path: json['backdrop_path'] as String?,
     name: json['name'] as String?,

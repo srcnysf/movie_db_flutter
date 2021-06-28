@@ -6,7 +6,7 @@ part 'movies.g.dart';
 
 @JsonSerializable()
 class Movies {
-  final int page;
+  int page;
   final List<Movie> results;
   Movies({
     required this.page,

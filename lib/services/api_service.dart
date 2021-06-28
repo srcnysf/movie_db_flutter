@@ -12,10 +12,12 @@ abstract class ApiService {
   factory ApiService(Dio dio, {String baseUrl}) = _ApiService;
 
   @GET("/tv/popular")
-  Future<TvShows> getPopularTvShows(@Query("api_key") String? apiKey);
+  Future<TvShows> getPopularTvShows(
+      @Query("api_key") String? apiKey, @Query("page") int? page);
 
   @GET("/movie/popular")
-  Future<Movies> getPopularMovies(@Query("api_key") String? apiKey);
+  Future<Movies> getPopularMovies(
+      @Query("api_key") String? apiKey, @Query("page") int? page);
 
   @GET("/tv/latest")
   Future<void> getLatestTvShows(@Query("api_key") String? apiKey);

@@ -70,80 +70,80 @@ class ThemeConst {
       ),
     ),
     textTheme: TextTheme(
-      headline1: GoogleFonts.nunito(
+      headline1: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: null,
+        fontSize: 40,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.nunito(
+      headline2: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: null,
+        fontSize: 28,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline3: GoogleFonts.nunito(
+      headline3: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: null,
+        fontSize: 20,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
       //Uses for Titles of Onboarding
-      headline4: GoogleFonts.nunito(
+      headline4: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: 30,
+        fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline5: GoogleFonts.nunito(
+      headline5: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: 18,
+        fontSize: 14,
         fontWeight: FontWeight.w600,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.nunito(
+      headline6: GoogleFonts.lato(
         color: Constants.black,
-        fontSize: 16,
+        fontSize: 12,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.nunito(
-        color: Constants.black,
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText1: GoogleFonts.nunito(
+      subtitle1: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      bodyText2: GoogleFonts.nunito(
+      bodyText1: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      caption: GoogleFonts.nunito(
+      bodyText2: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      button: GoogleFonts.nunito(
+      caption: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle2: GoogleFonts.nunito(
+      button: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      overline: GoogleFonts.nunito(
+      subtitle2: GoogleFonts.lato(
+        color: Constants.black,
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      overline: GoogleFonts.lato(
         color: Constants.black,
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -151,79 +151,79 @@ class ThemeConst {
       ),
     ),
     primaryTextTheme: TextTheme(
-      headline1: GoogleFonts.nunito(
+      headline1: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 40,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline2: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 28,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline3: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 20,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline4: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 18,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline5: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 14,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline6: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 12,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      subtitle1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText2: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      caption: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline3: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline4: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline5: GoogleFonts.nunito(
+      button: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.nunito(
+      subtitle2: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      caption: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      button: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      subtitle2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      overline: GoogleFonts.nunito(
+      overline: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -231,25 +231,25 @@ class ThemeConst {
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
-      labelStyle: GoogleFonts.nunito(
+      labelStyle: GoogleFonts.lato(
         color: Constants.purple,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      helperStyle: GoogleFonts.nunito(
+      helperStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      hintStyle: GoogleFonts.nunito(
+      hintStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      errorStyle: GoogleFonts.nunito(
+      errorStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -260,19 +260,19 @@ class ThemeConst {
       isDense: false,
       contentPadding: EdgeInsets.only(top: 12, bottom: 12, left: 0, right: 0),
       isCollapsed: false,
-      prefixStyle: GoogleFonts.nunito(
+      prefixStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      suffixStyle: GoogleFonts.nunito(
+      suffixStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      counterStyle: GoogleFonts.nunito(
+      counterStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -360,7 +360,7 @@ class ThemeConst {
       valueIndicatorColor: null,
       valueIndicatorShape: SliderComponentShape.noOverlay,
       showValueIndicator: null,
-      valueIndicatorTextStyle: GoogleFonts.nunito(
+      valueIndicatorTextStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -378,14 +378,14 @@ class ThemeConst {
       deleteIconColor: Color(0xde000000),
       disabledColor: Color(0x0c000000),
       labelPadding: EdgeInsets.only(top: 0, bottom: 0, left: 8, right: 8),
-      labelStyle: GoogleFonts.nunito(
+      labelStyle: GoogleFonts.lato(
         color: Color(0xde000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
       padding: EdgeInsets.only(top: 4, bottom: 4, left: 4, right: 4),
-      secondaryLabelStyle: GoogleFonts.nunito(
+      secondaryLabelStyle: GoogleFonts.lato(
         color: Color(0x3d000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -488,79 +488,79 @@ class ThemeConst {
       ),
     ),
     textTheme: TextTheme(
-      headline1: GoogleFonts.nunito(
+      headline1: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 40,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline2: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 28,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline3: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 20,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline4: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 18,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline5: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 14,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline6: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 12,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      subtitle1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText2: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      caption: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline3: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline4: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline5: GoogleFonts.nunito(
+      button: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.nunito(
+      subtitle2: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      caption: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      button: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      subtitle2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      overline: GoogleFonts.nunito(
+      overline: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -568,79 +568,79 @@ class ThemeConst {
       ),
     ),
     primaryTextTheme: TextTheme(
-      headline1: GoogleFonts.nunito(
+      headline1: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 40,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline2: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 28,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline3: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 20,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline4: GoogleFonts.lato(
+        color: Color(0xb3ffffff),
+        fontSize: 18,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline5: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 14,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      headline6: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: 12,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      subtitle1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText1: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      bodyText2: GoogleFonts.lato(
+        color: Color(0xffffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
+      caption: GoogleFonts.lato(
         color: Color(0xb3ffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline2: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline3: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline4: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: 30,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      headline5: GoogleFonts.nunito(
+      button: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      headline6: GoogleFonts.nunito(
+      subtitle2: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      subtitle1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText1: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      bodyText2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      caption: GoogleFonts.nunito(
-        color: Color(0xb3ffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      button: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      subtitle2: GoogleFonts.nunito(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      overline: GoogleFonts.nunito(
+      overline: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -648,25 +648,25 @@ class ThemeConst {
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
-      labelStyle: GoogleFonts.nunito(
+      labelStyle: GoogleFonts.lato(
         color: Constants.purple,
         fontSize: 18,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      helperStyle: GoogleFonts.nunito(
+      helperStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      hintStyle: GoogleFonts.nunito(
+      hintStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      errorStyle: GoogleFonts.nunito(
+      errorStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -677,19 +677,19 @@ class ThemeConst {
       isDense: false,
       contentPadding: EdgeInsets.only(top: 12, bottom: 12, left: 0, right: 0),
       isCollapsed: false,
-      prefixStyle: GoogleFonts.nunito(
+      prefixStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      suffixStyle: GoogleFonts.nunito(
+      suffixStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
-      counterStyle: GoogleFonts.nunito(
+      counterStyle: GoogleFonts.lato(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -777,7 +777,7 @@ class ThemeConst {
       valueIndicatorColor: null,
       valueIndicatorShape: SliderComponentShape.noOverlay,
       showValueIndicator: null,
-      valueIndicatorTextStyle: GoogleFonts.nunito(
+      valueIndicatorTextStyle: GoogleFonts.lato(
         color: Color(0xdd000000),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -795,14 +795,14 @@ class ThemeConst {
       deleteIconColor: Color(0xdeffffff),
       disabledColor: Color(0x0cffffff),
       labelPadding: EdgeInsets.only(top: 0, bottom: 0, left: 8, right: 8),
-      labelStyle: GoogleFonts.nunito(
+      labelStyle: GoogleFonts.lato(
         color: Color(0xdeffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
       padding: EdgeInsets.only(top: 4, bottom: 4, left: 4, right: 4),
-      secondaryLabelStyle: GoogleFonts.nunito(
+      secondaryLabelStyle: GoogleFonts.lato(
         color: Color(0x3dffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,

@@ -22,7 +22,7 @@ class AppViewModel extends BaseViewModel {
       GlobalKey<ScaffoldMessengerState>();
 
   var brightness = SchedulerBinding.instance!.window.platformBrightness;
-  bool get darkModeOn => preferences.theme!;
+  bool get darkModeOn => !preferences.theme!;
   initApp(BuildContext context) async {
     if (preferences.theme == null) {
       preferences.theme = brightness == Brightness.dark;
