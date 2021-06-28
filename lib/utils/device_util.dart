@@ -52,9 +52,9 @@ class DeviceUtil {
     return WidgetsBinding.instance!.window.locales.first.languageCode;
   }
 
-  String getDeviceOS() {
+  String? getDeviceOS() {
     return Platform.isAndroid
-        ? _androidInfo!.version.release
+        ? _androidInfo?.version.release
         : _iosInfo!.systemVersion;
   }
 

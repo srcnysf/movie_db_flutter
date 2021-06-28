@@ -1,6 +1,6 @@
 class ApiConstants {
   // base url
-  static const BASE_URL = "https://api-alpha-deliboy.dcafood.com/api/V1";
+  static const BASE_URL = "https://api.themoviedb.org/3";
 
   static const API_KEY = "d005fa44-e697-49d0-824f-ac99ea54281f";
   // receiveTimeout
