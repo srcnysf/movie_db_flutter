@@ -1,4 +1,4 @@
-## Movie DB 🍝
+## Movie DB
 
 MovieDB POC App Developed with Flutter.
 
